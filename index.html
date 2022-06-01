@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "assets/css/style.css">
+    <title>Desafio to-do List</title>
+    <script src = "assets/css/js/adicionar.js"></script>
+</head>
+<body>
+    <h1> To-do List </h1>
+
+    <h2>Adicione suas tarefas do dia e depois remova quando terminar</h2>
+    <div class = 'container'>
+        <div id = 'divAdd'>
+            <form action = "JavaScript:void(0)" >
+                <input type = text name = "task" id = 'task' placeholder="Digite aqui a tarefa"> 
+                <button name = "" onclick = "addTask()" value = "addTask" id = "add">Adicionar</button>
+            </form>
+        </div>
+        <div class = "list">
+            <label>My List</label>
+            <ul id = "myList">
+                
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

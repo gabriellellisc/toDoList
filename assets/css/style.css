@@ -1,0 +1,47 @@
+h1{
+    color: gray;
+    font-size: 40px;
+    font-family: Verdana;
+    text-align: center;
+}
+h2{
+    color: gray;
+    font-size: 20px;
+    font-family: Verdana;
+    text-align: center;
+}
+#divAdd{
+    text-align: center;
+}
+input[type = "text"]{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #acacac;
+}
+
+#add{
+    color: white;
+    padding: 10px;
+    background-color: rgb(4, 71, 4);
+    border-radius: 5px;
+    border: 1px solid #acacac;
+}
+
+.list{
+    color: gray;
+    font-size: 15px;
+    font-family: Verdana;
+    Display: flex;
+    Justify-content:center;
+    margin: auto;
+    Align-content: center;
+    Align-items: center;
+}
+button{
+    color: white;
+    background-color: red;
+    border: 10px;
+}
+li{
+    padding: 5px;
+}
